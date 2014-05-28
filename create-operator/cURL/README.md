@@ -1,8 +1,5 @@
-Usage
----
-
 This command will POST the `operator.xml` file to the server to create a
-non-master-operator `hodor` with password `hodor`:
+non-master-operator `eddard` with password `winterfell`:
 
     curl -X POST --data-binary @operator.xml --user username:password https://server:port/api/operators
 
