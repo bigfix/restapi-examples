@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<SingleAction>
+		<Title>Test Action for curl readme</Title>
+		<Relevance><![CDATA["|13461357|" contains "|" & computer id as string & "|"]]></Relevance>
+		<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">// Enter your action script here
+//
+// example xml action file for documentation on updating actions with cURL</ActionScript>
+		<SuccessCriteria Option="RunToCompletion"></SuccessCriteria>
+		<Settings>
+			<PreActionShowUI>false</PreActionShowUI>
+			<HasRunningMessage>false</HasRunningMessage>
+			<HasTimeRange>false</HasTimeRange>
+			<HasStartTime>false</HasStartTime>
+			<HasEndTime>true</HasEndTime>
+			<EndDateTimeLocalOffset>P2D</EndDateTimeLocalOffset>
+			<HasDayOfWeekConstraint>false</HasDayOfWeekConstraint>
+			<UseUTCTime>false</UseUTCTime>
+			<ActiveUserRequirement>NoRequirement</ActiveUserRequirement>
+			<ActiveUserType>AllUsers</ActiveUserType>
+			<HasWhose>false</HasWhose>
+			<PreActionCacheDownload>false</PreActionCacheDownload>
+			<Reapply>false</Reapply>
+			<HasReapplyLimit>true</HasReapplyLimit>
+			<ReapplyLimit>3</ReapplyLimit>
+			<HasReapplyInterval>false</HasReapplyInterval>
+			<HasRetry>false</HasRetry>
+			<HasTemporalDistribution>false</HasTemporalDistribution>
+			<ContinueOnErrors>true</ContinueOnErrors>
+			<PostActionBehavior Behavior="Nothing"></PostActionBehavior>
+			<IsOffer>false</IsOffer>
+		</Settings>
+		<SettingsLocks>
+			<ActionUITitle>false</ActionUITitle>
+			<PreActionShowUI>false</PreActionShowUI>
+			<PreAction>
+				<Text>false</Text>
+				<AskToSaveWork>false</AskToSaveWork>
+				<ShowActionButton>false</ShowActionButton>
+				<ShowCancelButton>false</ShowCancelButton>
+				<DeadlineBehavior>false</DeadlineBehavior>
+				<ShowConfirmation>false</ShowConfirmation>
+			</PreAction>
+			<HasRunningMessage>false</HasRunningMessage>
+			<RunningMessage>
+				<Text>false</Text>
+			</RunningMessage>
+			<TimeRange>false</TimeRange>
+			<StartDateTimeOffset>false</StartDateTimeOffset>
+			<EndDateTimeOffset>false</EndDateTimeOffset>
+			<DayOfWeekConstraint>false</DayOfWeekConstraint>
+			<ActiveUserRequirement>false</ActiveUserRequirement>
+			<ActiveUserType>false</ActiveUserType>
+			<Whose>false</Whose>
+			<PreActionCacheDownload>false</PreActionCacheDownload>
+			<Reapply>false</Reapply>
+			<ReapplyLimit>false</ReapplyLimit>
+			<RetryCount>false</RetryCount>
+			<RetryWait>false</RetryWait>
+			<TemporalDistribution>false</TemporalDistribution>
+			<ContinueOnErrors>false</ContinueOnErrors>
+			<PostActionBehavior>
+				<Behavior>false</Behavior>
+				<AllowCancel>false</AllowCancel>
+				<Deadline>false</Deadline>
+				<Title>false</Title>
+				<Text>false</Text>
+			</PostActionBehavior>
+			<IsOffer>false</IsOffer>
+			<AnnounceOffer>false</AnnounceOffer>
+			<OfferCategory>false</OfferCategory>
+			<OfferDescriptionHTML>false</OfferDescriptionHTML>
+		</SettingsLocks>
+		<IsUrgent>false</IsUrgent>
+		<Target>
+			<ComputerID>13461357</ComputerID>
+		</Target>
+	</SingleAction>
+</BES>
