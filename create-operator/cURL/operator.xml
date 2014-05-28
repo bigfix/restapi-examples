@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BESAPI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BESAPI.xsd">
-	<Operator Resource="http://localhost:52311/api/operator/bigfix">
-		<Name>hodor</Name>
-		<Password>hodor</Password>
+	<Operator>
+		<Name>eddard</Name>
+		<Password>winterfell</Password>
 		<MasterOperator>false</MasterOperator>
 		<CustomContent>false</CustomContent>
 		<LoginPermission>Unrestricted</LoginPermission>
