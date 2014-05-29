@@ -1,0 +1,10 @@
+<BESAPI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BESAPI.xsd">
+<Role Resource="http://localhost:52311/api/role/35">
+<Name>Updated Role Name</Name>
+<ID>35</ID>
+<MasterOperator>1</MasterOperator>
+<CustomContent>1</CustomContent>
+<ShowOtherActions>1</ShowOtherActions>
+<UnmanagedAssetPrivilege>ShowNone</UnmanagedAssetPrivilege>
+</Role>
+</BESAPI>
