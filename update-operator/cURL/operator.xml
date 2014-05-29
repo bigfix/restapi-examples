@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BESAPI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BESAPI.xsd">
+	<Operator>
+		<Name>testing...</Name>
+		<Password>winterfell</Password>
+		<MasterOperator>true</MasterOperator>
+		<CustomContent>true</CustomContent>
+		<LoginPermission>Unrestricted</LoginPermission>
+		<UnmanagedAssetPrivilege>ShowAll</UnmanagedAssetPrivilege>
+	</Operator>
+</BESAPI>
