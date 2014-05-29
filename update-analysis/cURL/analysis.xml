@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Analysis>
+		<Title>My Custom Analysis</Title>
+		<Description>My updated description</Description>
+		<Relevance>true</Relevance>
+		<Source>Internal</Source>
+		<SourceReleaseDate>2014-05-29</SourceReleaseDate>
+		<MIMEField>
+			<Name>x-fixlet-modification-time</Name>
+			<Value>Thu, 29 May 2014 22:35:16 +0000</Value>
+		</MIMEField>
+		<Domain>BESC</Domain>
+		<Property Name="Updated Property Name" ID="1">exists BES computer</Property>
+	</Analysis>
+</BES>
