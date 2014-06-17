@@ -26,3 +26,4 @@ while True:
 
 	print curlString
 	os.system(curlString);
+	print "------"
