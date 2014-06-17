@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Analysis>
+		<Title>Imported Analysis</Title>
+		<Description>A sample analysis</Description>
+		<Relevance>true</Relevance>
+		<Source>Internal</Source>
+		<SourceReleaseDate>2014-05-29</SourceReleaseDate>
+		<MIMEField>
+			<Name>x-fixlet-modification-time</Name>
+			<Value>Thu, 29 May 2014 22:35:16 +0000</Value>
+		</MIMEField>
+		<Domain>BESC</Domain>
+		<Property Name="New Property" ID="1">exists BES computer</Property>
+	</Analysis>
+	<Fixlet>
+		<Title>Imported Fixlet 1</Title>
+		<Description><![CDATA[
+<TABLE><TBODY><TR><TD> <P><FONT size=2>Shutdown all clients with a version older than 9.1.1065.</FONT></P></TD></TR></TBODY></TABLE>
+]]></Description>
+		<Relevance>exists relay service OR exists main gather service</Relevance>
+		<Relevance><![CDATA[version of it <= "9.1.1065"]]></Relevance>
+		<Category>Support</Category>
+		<DownloadSize>0</DownloadSize>
+		<Source>BigFix</Source>
+		<SourceID><![CDATA[<Unspecified>]]></SourceID>
+		<SourceReleaseDate>2004-10-06</SourceReleaseDate>
+		<SourceSeverity>Critical</SourceSeverity>
+		<DefaultAction ID="Action1">
+			<Description>
+				<PreLink>Click </PreLink>
+				<Link>here</Link>
+				<PostLink> to shutdown outdated clients.</PostLink>
+			</Description>
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">shutdown</ActionScript>
+		</DefaultAction>
+	</Fixlet>
+	<Fixlet>
+		<Title>Imported Fixlet 2</Title>
+		<Description><![CDATA[
+<TABLE><TBODY><TR><TD> <P><FONT size=2>Shutdown all clients with a version older than 9.1.1065.</FONT></P></TD></TR></TBODY></TABLE>
+]]></Description>
+		<Relevance>exists relay service OR exists main gather service</Relevance>
+		<Relevance><![CDATA[version of it <= "9.1.1065"]]></Relevance>
+		<Category>Support</Category>
+		<DownloadSize>0</DownloadSize>
+		<Source>BigFix</Source>
+		<SourceID><![CDATA[<Unspecified>]]></SourceID>
+		<SourceReleaseDate>2004-10-06</SourceReleaseDate>
+		<SourceSeverity>Critical</SourceSeverity>
+		<DefaultAction ID="Action1">
+			<Description>
+				<PreLink>Click </PreLink>
+				<Link>here</Link>
+				<PostLink> to shutdown outdated clients.</PostLink>
+			</Description>
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">shutdown</ActionScript>
+		</DefaultAction>
+	</Fixlet>
+
+</BES>
