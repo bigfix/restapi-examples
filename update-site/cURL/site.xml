@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<CustomSite>
+		<Name>New Custom Site Name</Name>
+		<Description>A more detailed description about this site!</Description>
+		<Domain>BESC</Domain>
+		<GlobalReadPermission>false</GlobalReadPermission>
+		<Subscription>
+			<Mode>Custom</Mode>
+			<CustomGroup JoinByIntersection="false">
+				<SearchComponentRelevance Comparison="IsTrue">
+					<Relevance>true</Relevance>
+				</SearchComponentRelevance>
+			</CustomGroup>
+		</Subscription>
+	</CustomSite>
+</BES>
