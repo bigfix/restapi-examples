@@ -25,5 +25,5 @@ Alternatively, you can use the `--insecure` option to disable HTTPS
 certificate verification. This is not recommended.
 
 Support
----
+===
 Any issues or questions regarding this software should be filed via [GitHub issues](https://github.com/bigfix/restapi-examples/issues).
