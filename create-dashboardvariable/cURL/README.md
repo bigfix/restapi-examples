@@ -1,7 +1,7 @@
 Usage
 ---
 
-This command will POST the file `dashboardvariables.xml` to the server to create the new DashboardVaribles contained in `dashboardvariables.xml`.
+This command will POST the file `dashboardvariables.xml` to the server to create the new DashboardVariables contained in `dashboardvariables.xml`.
 
     curl -X POST --data-binary @dashboardvariables.xml --user username:password https://server:port/api/dashboardvariables/Odometer.ojo
 
