@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BESAPI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BESAPI.xsd">
+	<DashboardData>
+		<Dashboard>Odometer.ojo</Dashboard>
+		<Name>distance</Name>
+		<IsPrivate>true</IsPrivate>
+		<Value>{"miles":"500","kilometers":"800"}</Value>
+	</DashboardData>
+	<DashboardData>
+		<Dashboard>Odometer.ojo</Dashboard>
+		<Name>trip</Name>
+		<IsPrivate>false</IsPrivate>
+		<Value>{"miles":"50","kilometers":"80"}</Value>
+	</DashboardData>
+</BESAPI>
