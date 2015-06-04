@@ -1,8 +1,11 @@
 Equivalent Action in Console
 ---
-Right-click an Analysis and select "Create New Analysis.."
+* Right-click an Analysis and select "Create New Analysis.."
+
 ![image](create-analysis-from-panel.png)
-or from Menu bar, select "Tool", then choose "Create New Analysis..."
+
+* Or, from Menu bar, select "Tool", then choose "Create New Analysis..."
+
 ![image](create-analysis-from-menu.png)
 
 Explanation of [`analysis.xml`](./analysis.xml)
@@ -12,7 +15,7 @@ Explanation of [`analysis.xml`](./analysis.xml)
 * Relevance - (Permissible Values: any relevance expression that evaluates to true or false) A relevance statement that evaluates to true for computers that this Fixlet should run on. All Relevance tags must evaluate to `true` in order for the Fixlet to run. 
 * Source - (Optional, default to `""`) (Permissible Values: any string)
 * SourceReleaseDate - (Optional, default to the date of sourse release) (Permissible Values: a date in `yyyy-mm-dd` format)
-* MIMEField - (Optional, default to 
+* MIMEField - (Optional, default to
   ```
      </MIMEField>
          <Name>x-fixlet-modification-time</Name>
@@ -30,4 +33,3 @@ This command will POST the file [`analysis.xml`](./analysis.xml) to the server t
     curl -X POST --data-binary @analysis.xml --user username:password https://server:port/api/analyses/custom/Test-Site
 
 See [cURL overview](../../README.md#cURL) for more information on using [cURL](http://curl.haxx.se/).
-
