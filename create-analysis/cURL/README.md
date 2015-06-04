@@ -12,7 +12,7 @@ Explanation of [`analysis.xml`](./analysis.xml)
 ---
 * Title - (Permissible Values: any string) The title of your custom analysis
 * Description - (Permissible Values: any string)The updated description of your custom analysis
-* Relevance - (Permissible Values: any relevance expression that evaluates to true or false) A relevance statement that evaluates to true for computers that this Fixlet should run on. All Relevance tags must evaluate to `true` in order for the Fixlet to run. 
+* Relevance - (Permissible Values: any relevance expression that evaluates to true or false) A relevance statement that evaluates to true for computers that this Fixlet should run on. All Relevance tags must evaluate to `true` in order for the Fixlet to run.
 * Source - (Optional, default to `""`) (Permissible Values: any string)
 * SourceReleaseDate - (Optional, default to the date of sourse release) (Permissible Values: a date in `yyyy-mm-dd` format)
 * MIMEField - (Optional, default to
@@ -28,7 +28,7 @@ Explanation of [`analysis.xml`](./analysis.xml)
 Usage
 ---
 
-This command will POST the file [`analysis.xml`](./analysis.xml) to the server to create a new analysis called `My Custom Analysis' for a custom site named `Test-Site`.
+This command will POST the file [`analysis.xml`](./analysis.xml) to the server to create a new analysis called `My Custom Analysis` for a custom site named `Test-Site`.
 
     curl -X POST --data-binary @analysis.xml --user username:password https://server:port/api/analyses/custom/Test-Site
 
