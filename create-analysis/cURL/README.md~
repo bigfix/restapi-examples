@@ -1,9 +1,7 @@
 Equivalent Action in Console
 ---
 Right-click an Analysis and select "Create New Analysis.."
-![image](create-analysis-from-panel.png)
 or from Menu bar, select "Tool", then choose "Create New Analysis..."
-![image](create-analysis-from-menu.png)
 
 Explanation of [`analysis.xml`](./analysis.xml)
 ---
