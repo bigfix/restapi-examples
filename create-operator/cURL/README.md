@@ -6,7 +6,7 @@ Explanation of `operator.xml`
 ===
 All of these tags go under the "Operator" tag in the operator.xml file provided, in the order displayed here. Some tags were not included in operator.xml, but can be written in. Alternatively, run the following curl command:
 
-    curl --insecure -X GET --user username:password https://server:port/api/operators
+    curl -X GET --user username:password https://server:port/api/operators
 
 and fill in the XML file returned with the data of the operator you wish to create. If multiple operators are returned, remove all operator tags but one. You will have to add the "Password" tag immediately below the "Name" tag.
 
@@ -34,6 +34,6 @@ Usage
 This command will POST the file `operator.xml` to the server to create a
 non-master-operator `eddard` with password `winterfell`:
 
-    curl --insecure -X POST --data-binary @operator.xml --user username:password https://server:port/api/operators
+    curl -X POST --data-binary @operator.xml --user username:password https://server:port/api/operators
 
 See [cURL overview](../../README.md#cURL) for more information on using [cURL](http://curl.haxx.se/).
