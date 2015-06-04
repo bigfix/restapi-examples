@@ -3,6 +3,10 @@ Equivalent Action in Console
 
 Click on the Main Menu -> Tools -> Create Custom Site.
 
+![Create site menu](create_site_menu.png)
+
+![Create site dialog](create_site_dialog.png)
+
 Explanation of [`site.xml`](site.xml)
 ====
 
