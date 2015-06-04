@@ -2,9 +2,9 @@ Equivalent Action in Console
 ===
 Open the operators tab and right-click the field containing existing operators. Select "Create local operator", and follow the next steps.
 
-Explanation of `operator.xml`
+Explanation of [operator.xml](operator.xml)
 ===
-All of these tags go under the "Operator" tag in the operator.xml file provided, in the order displayed here. Some tags were not included in operator.xml, but can be written in. Alternatively, run the following curl command:
+All of these tags go under the "Operator" tag in the [operator.xml](operator.xml) file provided, in the order displayed here. Some tags were not included in operator.xml, but can be written in. Alternatively, run the following curl command:
 
     curl -X GET --user username:password https://server:port/api/operators
 
@@ -31,7 +31,7 @@ and fill in the XML file returned with the data of the operator you wish to crea
 
 Usage
 ===
-This command will POST the file `operator.xml` to the server to create a
+This command will POST the file [operator.xml](operator.xml) to the server to create a
 non-master-operator `eddard` with password `winterfell`:
 
     curl -X POST --data-binary @operator.xml --user username:password https://server:port/api/operators
