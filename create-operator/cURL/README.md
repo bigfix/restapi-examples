@@ -14,7 +14,7 @@ and fill in the XML file returned with the data of the operator you wish to crea
 
 * Name - (Permissible Values: any string) Name of the operator
 * Password - (Permissible Values: any string) Operator password
-* MasterOperator - (Optional, defaults to false) (Permissible Values: true, false) Is the operator created a master operator? Note: If MasterOperator is set to true, the remaining fields are unneccessary to include in the xml file and will be set to their default values. Any attempt to change any of the remaining fields to non-default values will yield an inconsistent operator, which will not be created.
+* MasterOperator - (Optional, defaults to false) (Permissible Values: true, false) Is the operator created a master operator? Note: If MasterOperator is set to true, the remaining tags are unneccessary to include in the xml file and will be set to their default values. Any attempt to change any of the remaining tags to non-default values will be overriden back to their default values.
 * CustomContent - (Optional, defaults to true) (Permissible Values: true, false) Can this operator create custom content?
 * ShowOtherActions - (Optional, defaults to true) (Permissible Values: true, false) Can this operator see actions submitted by other operators?
 * CanCreateActions - (Optional, defaults to true) (Permissible Values: true, false) Can this operator create actions?
