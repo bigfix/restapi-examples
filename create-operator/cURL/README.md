@@ -1,6 +1,24 @@
 Equivalent Action in Console
 ===
-Open the operators tab and right-click the field containing existing operators. Select "Create local operator", and follow the next steps.
+![Click operators](ChooseOperators.png)
+
+Open the operators tab.
+
+![Right Click](RightClick.png)
+
+Right-click the field containing existing operators.
+
+![Select "Create local operator"](CreateLocalOperator.png)
+
+Select "Create local operator".
+
+![Fill in Data](FillData.png)
+
+Add username and password.
+
+![Change Permissions](SelectPermissions.png)
+
+Select the permissions, explained below.
 
 Explanation of [operator.xml](operator.xml)
 ===
