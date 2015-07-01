@@ -1,6 +1,6 @@
 ## Examples:
 
- - Using [cURL](https://github.com/bigfix/restapi-examples/tree/master/import-xml/cURL)
+ - Using [cURL](cURL/)
 
 
 ## Documentation:
