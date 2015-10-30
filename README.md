@@ -4,6 +4,10 @@ RESTAPI.
 cURL
 ===
 
+Download
+---
+Get cURL here: http://curl.haxx.se
+
 Options
 ---
 
