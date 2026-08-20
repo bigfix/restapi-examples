@@ -1,4 +1,4 @@
-A collection of examples to demonstrate the usage of the IBM Endpoint Manager
+A collection of examples to demonstrate the usage of the HCL BigFix
 RESTAPI.
 
 cURL
@@ -22,7 +22,7 @@ Security
 ---
 
 In order for curl to secure the connection to the server, you must install a
-[custom HTTPS certificate](http://www-01.ibm.com/support/docview.wss?uid=swg21505848)
+[custom HTTPS certificate](https://help.hcltechsw.com/bigfix/10.0/platform/Platform/Config/c_restapi_https_settings.html)
 and use the `--cacert` option.
 
 Alternatively, you can use the `--insecure` option to disable HTTPS
